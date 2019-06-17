@@ -1,0 +1,4 @@
+pyshd
+=====
+
+.. automodule:: pyshd
