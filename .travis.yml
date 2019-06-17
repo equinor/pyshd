@@ -23,6 +23,7 @@ deploy:
     on:
       condition: $TRAVIS_PYTHON_VERSION = 3.5
       tags: true
+    skip_existing: true
     user: statoil-travis
     password:
       secure: I+i4eo1zcDICLZXFGz1Ac3YO2LikQjSKql/KMgv/C8COo53OmMT1lFVSMwe0YeBxAeJnYsbgDE3x97C7i1qM/CUhOGYxXMLuQAdZ3fr5ctBSUMPTdT9EsMcYSCN3ovvYrqTDcriXNgYWBcC6kDmAwCaSUTayP5XnJo2c4en5WngoXHDgaWTqjuyyQpn7696EtK4vHE/aQBYijJFJiCW3ZPrVK34NKVTN9qDz7QVH3YbYF7QDV1/wKmTI6NUR2KzLcQjxo98H/FIEt5cE+bPvfLciXki/2d4l7DgPF5Ef8ycMxs6bvZs3oLMgwqr3PzjwvrDX2mAzMH8jWCC6a2qsHUw8CvD6fKvfmL6tULtnGK1Mcrrf1xJojR0OI1I17E0HY5N8ocuVKNX0P7KjxWC6xXtOWowB/R/MNIuo5jpJbUZ15KzNFHfD8j9Ao8EbvfQGu3IXGMGcYNUWeWJIHx8c4FP1sDxr2RBTfDSItiNDvBZyJvc8UY8mnGKjDFkxY9KmqaxUt/FKc8tEkllZU8FLipkf7aWKflmLX8b/3ksk5e0CjhiJ0Qdt/CZDFLsleQL5cGAvnn5tOKP01fVL3jdLGizw2nnHjjW5h/kPZy0WfnjzZuoM0XxJoAQ8DgiKjlf9TMLvPHqekY6krZAuQg1B8BpAMpllPeDuWJ/V1TsySrM=

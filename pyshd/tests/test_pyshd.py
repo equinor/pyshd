@@ -9,7 +9,7 @@ def cwd():
 
 def test_pushd(tmpdir):
     prev = Path(os.getcwd())
-    root = Path(str(tmpdir)) # Pytest provides a pathlib2 instance
+    root = Path(str(tmpdir))  # Pytest provides a pathlib2 instance
     path = root / 'some' / 'dir'
     path.mkdir(parents=True)
 
